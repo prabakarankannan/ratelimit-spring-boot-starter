@@ -14,7 +14,6 @@
     + [Rate Limit Key Generator](#rate-limit-key-generator)
       + [Custom Rate Limit Key Generator](#custom-rate-limit-key-generator)
     + [Too Many Request Error](#too-many-request-error)
-  * [License](#license)
 
 ## Introduction
 Built on top of Spring Boot to limit the rate of access to your REST APIs.
