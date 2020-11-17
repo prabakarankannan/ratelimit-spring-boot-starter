@@ -72,7 +72,7 @@ The main dependency is JDK 8+. Tested with:
  - Spring Boot `2.2.3.RELEASE` (Also, should work with any spring boot versions)
 
 ### Configuration
-The configuration can be done in the application.properties / application.yml.
+The configuration can be done in the application.yml.
 ```yaml
 rate-limit:
   enabled: true
@@ -93,22 +93,6 @@ rate-limit:
       params: ["X-FORWARD-FOR"]
 ```
 
-Sample Properties configuration
-
-```properties
-rate-limit.enabled=true
-rate-limit.filterOrder=0
-rate-limit.repository="IN_MEMORY"
-rate-limit.policies[0].duration=5s
-rate-limit.policies[0].count=3
-rate-limit.policies[0].keyGenerator= BY_IP
-rate-limit.policies[0].block.duration= 1d
-rate-limit.policies[0].routes[0].uri="/**"
-rate-limit.policies[0].routes[0].method=GET
-rate-limit.keyGenerators[0].name=BY_IP
-rate-limit.keyGenerators[0].generator=com.github.prabakarankannan.ratelimit.generators.HeaderBasedKeyGenerator
-rate-limit.keyGenerators[0].params[0]="X-FORWARD-FOR"
-```
 
 The 'duration', can be expressed with [Spring Boot’s duration formats](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-external-config-conversion-duration):
 
