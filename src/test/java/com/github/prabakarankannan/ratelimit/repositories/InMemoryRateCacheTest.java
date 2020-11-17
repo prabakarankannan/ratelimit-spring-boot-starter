@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * Unit tests for {@link InMemoryRateCache}.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 class InMemoryRateCacheTest {
 

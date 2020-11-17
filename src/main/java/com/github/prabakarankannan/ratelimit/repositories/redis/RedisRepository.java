@@ -5,6 +5,6 @@ import org.springframework.data.repository.CrudRepository;
 /**
  * Provides data access operations over {@link RateHash} entity.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public interface RedisRepository extends CrudRepository<RateHash, String> {}

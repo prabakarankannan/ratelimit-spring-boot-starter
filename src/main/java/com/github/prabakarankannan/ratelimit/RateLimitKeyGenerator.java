@@ -7,7 +7,7 @@ import com.github.prabakarankannan.ratelimit.conf.properties.RateLimitProperties
 /**
  * Defines a contract to generate a key from the Http servlet request.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public interface RateLimitKeyGenerator {
 

@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 /**
  * Integration tests for {@link RedisRateCache}.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 @DataRedisTest
 @SpringBootConfiguration

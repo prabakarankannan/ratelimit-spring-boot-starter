@@ -28,7 +28,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 /**
  * Unit tests for {@link RateLimitAutoConfiguration}.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 class RateLimitAutoConfigurationTest {
 

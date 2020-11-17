@@ -3,7 +3,7 @@ package com.github.prabakarankannan.ratelimit.conf.properties;
 /**
  * Represents the all supported repositories for storage.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public enum RateLimitRepositoryKey {
 

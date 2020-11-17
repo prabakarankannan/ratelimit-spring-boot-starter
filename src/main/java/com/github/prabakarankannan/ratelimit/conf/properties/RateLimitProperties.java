@@ -20,7 +20,7 @@ import static org.springframework.util.StringUtils.trimAllWhitespace;
 /**
  * Configuration properties to configure the rate limit mechanism.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 @Validated
 @ConstructorBinding

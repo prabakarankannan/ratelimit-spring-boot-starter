@@ -28,7 +28,7 @@ import static java.util.stream.Collectors.toList;
 /**
  * A servlet filter to filtering requests to handle rate limiting.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public class RateLimitFilter extends OncePerRequestFilter implements OrderedFilter {
 

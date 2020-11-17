@@ -5,7 +5,7 @@ import java.time.Instant;
 /**
  * Represents a detail of rate limit in giving time for a requester.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public final class Rate {
 

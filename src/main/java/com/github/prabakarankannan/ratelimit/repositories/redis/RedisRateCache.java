@@ -17,7 +17,7 @@ import static org.springframework.util.ConcurrentReferenceHashMap.ReferenceType.
 /**
  * An implementation of {@link RateLimiter} to cache the rate limit data in redis.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public class RedisRateCache implements RateLimiter {
 

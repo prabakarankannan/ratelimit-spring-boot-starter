@@ -10,7 +10,7 @@ import java.time.Instant;
 /**
  * Encapsulates the rate limit detail to sore in redis.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 @RedisHash("rates")
 public class RateHash {

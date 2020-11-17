@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 /**
  * Unit tests for {@link RateLimitProperties}.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 class RateLimitPropertiesTest {
 

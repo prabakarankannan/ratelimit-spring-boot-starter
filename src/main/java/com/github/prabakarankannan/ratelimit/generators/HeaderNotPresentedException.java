@@ -4,7 +4,7 @@ package com.github.prabakarankannan.ratelimit.generators;
  * should be thrown when the {@link #headerKey} not presented in
  * the Http servlet request header while generating the key.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public class HeaderNotPresentedException extends RuntimeException {
 

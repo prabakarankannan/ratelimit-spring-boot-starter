@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * Default implementation of {@link TooManyRequestErrorHandler} to handle too many request error response.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public class DefaultTooManyRequestErrorHandler implements TooManyRequestErrorHandler {
 

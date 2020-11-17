@@ -7,7 +7,7 @@ import java.time.Duration;
 /**
  * Encapsulates the rate limit policy details to consume.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public final class RatePolicy {
 

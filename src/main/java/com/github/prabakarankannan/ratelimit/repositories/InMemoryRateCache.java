@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * An implementation of {@link RateLimiter} to cache the rate limit data in memory.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public class InMemoryRateCache implements RateLimiter {
 

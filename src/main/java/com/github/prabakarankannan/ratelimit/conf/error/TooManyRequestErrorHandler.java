@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * In order to handle too many request error response.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public interface TooManyRequestErrorHandler {
 

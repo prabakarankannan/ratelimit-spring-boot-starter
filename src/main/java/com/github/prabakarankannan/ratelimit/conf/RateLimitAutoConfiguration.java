@@ -42,7 +42,7 @@ import java.util.Map;
  * You can also provide your own custom {@link RateLimitKeyGenerator} implementations.
  * Just implement the {@link RateLimitKeyGenerator} interface and add to properties file.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  * @see RateLimitKeyGenerator
  * @see RateLimiter
  */

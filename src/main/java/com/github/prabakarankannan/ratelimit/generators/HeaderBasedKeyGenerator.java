@@ -11,7 +11,7 @@ import java.util.StringJoiner;
  * An implementation of {@link RateLimitKeyGenerator} to generate a identity key from the requester
  * based on HTTP Request Header parameters.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public class HeaderBasedKeyGenerator implements RateLimitKeyGenerator {
 

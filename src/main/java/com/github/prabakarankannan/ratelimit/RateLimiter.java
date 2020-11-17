@@ -5,7 +5,7 @@ import javax.annotation.Nonnull;
 /**
  * Contract to cache the rate limit detail.
  *
- * @author Sajjad Alipour
+ * @author Prabakaran Kannan
  */
 public interface RateLimiter {
 
