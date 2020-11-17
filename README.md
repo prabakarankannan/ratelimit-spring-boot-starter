@@ -32,10 +32,6 @@ Add the dependency on pom.xml
 </dependency>
 ```
 
-or Gradle:
-```
-compile "com.github.prabakarankannan:ratelimit-spring-boot-starter:1.0.0"
-```
 
 In order yo use `1.0.3-SNAPSHOT` version, you should define the following snapshot repository:
 ```xml
@@ -47,15 +43,6 @@ In order yo use `1.0.3-SNAPSHOT` version, you should define the following snapsh
 </repositories>
 ```
 
-or:
-
-```groovy
-repositories {
-    maven {
-      url 'https://oss.sonatype.org/content/repositories/snapshots/'
-    }
-}
-```
 
 Add the following dependency accordingly to the chosen data storage:
 
